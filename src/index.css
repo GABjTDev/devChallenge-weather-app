@@ -1,0 +1,53 @@
+:root{
+  --backgroundMenu:#1E213A;
+  --backgroundMain: #100E1D;
+  --gray: #6E707A;
+  --gray2: #88869D;
+  --lightGray: #A09FB1;
+  --barColor: #e7e7e7;
+  --ColorActive: #e7e7e7;
+  --Color: #585676;
+  --white: rgb(243, 243, 243);
+  --yellow: #FFEC65;
+  --btn: #3C47E9;
+}
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+button{
+  font-size: .80rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-loader{
+  background-color: var(--backgroundMain);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+  }
+
+
+}
+
+
